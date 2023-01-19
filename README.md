@@ -8,6 +8,8 @@ por ende este proyecto estara en constante cambio, lanzando mas y mejores funcio
 
 me ayduaria mucho que compartieras el link de la pagina (si es que te gusta el proyecto) :D.
 
-cualquier bug o error puedes mandarme DM al Twitter oficial de la pagina https://twitter.com/cheemsTraduce
+cualquier bug o error puedes mandarme DM a las redes oficial de la pagina:
+https://twitter.com/cheemsTraduce
+https://www.tiktok.com/@garo.dev
 
 Muchas Gracias <3.
