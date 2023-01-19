@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width">
+    <title>Cheems traductor</title>
+    <link rel="shortcut icon" href="imagenes/cheems austronauta.ico">
+    <link rel="stylesheet" href="Resetcss.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/planet-kosmos" rel="stylesheet">
+    
+</head>
+<body>
+    <header> Cheems traductor!</header>
+    <main>
+        
+        <div class="idioma">
+            <label id="etiqueta" for="selector">Traducir A:    </label>
+            <select id="selector">
+                <option>Cheems</option>
+            </select>
+        </div>
+
+        <section class="principal">
+            <textarea  id="entrada" class="entrada" onclick="borrarEntrada()">Escribe Aquí!</textarea>
+            <textarea id="salida" class="salida">Tem lom tramdusco am lam velomcidad dem lam lumz</textarea>
+            <textarea class="uno" disabled></textarea>
+            <textarea class="dos" disabled></textarea>
+            <img class="cheems" src="imagenes/cheems austronauta.png" alt="cheems">
+        </section>
+
+        <div class="caja">
+            <button class="traducir" onclick="traducir()"> Tramdumcir!</button>
+            <button class="copiar" onclick="copy()" > Compiar em temxto</button>
+        </div>
+       
+        
+    </main>
+
+    <footer>
+        <a class="git" href="https://github.com/GaroHurtado"><img src="imagenes/gitlogo-removebg-preview.png" alt="github-icon"></a>
+
+        <a class="twit" href="https://twitter.com/cheemsTraduce"><img src="imagenes/pngegg.png" alt="twitter-icon"></a>
+
+        <a class="tik" href="https://www.tiktok.com/@garo.dev?is_from_webapp=1&sender_device=pc"><img src="imagenes/tik-tok-logo-33082.png" alt="tiktok-icon"></a>
+         
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
