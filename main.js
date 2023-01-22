@@ -31,7 +31,7 @@ function traducir(){
             if(i == texto1.length){
                 clearInterval(imp)
             }
-        },65)
+        } ,65)
     }
     var salida = maquina();
 }
