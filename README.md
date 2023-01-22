@@ -8,8 +8,26 @@ por ende este proyecto estara en constante cambio, lanzando mas y mejores funcio
 
 me ayduaria mucho que compartieras el link de la pagina (si es que te gusta el proyecto) :D.
 
-cualquier bug o error puedes mandarme DM a las redes oficial de la pagina:
+cualquier bug o error puedes mandarme DM a las redes oficiales del proyecto:
 https://twitter.com/cheemsTraduce , 
-https://www.tiktok.com/@garo.dev
+https://www.tiktok.com/@garo.dev, https://instagram.com/cheemstraduce?igshid=ZDdkNTZiNTM=
 
 Muchas Gracias <3.
+
+*******************    Que hay de nuevo??    *******************      
+
+**** v1.0.0 ****
+Se lanza la primera version del proyecto Traductor Cheems
+
+**** v1.1.2 ****
+21/Ene/2023 12:00pm CST
+- Se ha agregado una nueva funcion en el archivo JS para darle efecto de salida como un  texto de videojuego al globo de conversacion
+de cheems.
+- Se cambio el tipo de fuente al globo de conversacion de cheems para lucir mas como un videojuego.
+- Se argego el icono de la red social INSTAGRAM
+- Se realizo el responsive del icono para el uso del celular.
+
++++++++++++++++++++    Que vendra despues??    +++++++++++++++++++
+- Algunos efectos para el footer en los iconos de las redes sociales para que llamen un poco mas la atencion (0.0.3)
+- Algunos ajustes en el width del boton de traducir y copiar texto para un mejor responsive. (0.0.4)
+- Agregar nuevo idioma para la traduccion (funcion mayor) (0.2.0)
