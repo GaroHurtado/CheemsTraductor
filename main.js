@@ -19,10 +19,21 @@ function traducir(){
     while(x<=len){
         texto=texto.replaceAll(letras[x],cambio[x])
         x++
-      
     }
-   
-    salidaUser.value=texto;
+    function maquina(){
+        let i = 0;
+        let texto1 = texto.split("");
+        console.log(texto1)
+        salidaUser.value="";
+        let imp = setInterval(function(){
+            salidaUser.value += texto1[i];
+            i++
+            if(i == texto1.length){
+                clearInterval(imp)
+            }
+        },65)
+    }
+    var salida = maquina();
 }
 function copy() {
     let copyText = document.getElementById("salida");
