@@ -5,10 +5,12 @@ body{
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;  
-    width: 1080px;
+    width: auto;
 }
 
 header{
+    display: grid;
+    place-items: center;
     margin: 0.5em;
     color: white;
     text-align: center;
@@ -22,6 +24,7 @@ main{
     position: relative;
     margin: 0 auto;
 }
+
 #etiqueta{
     color: white;
     font-size: 2em;
@@ -117,7 +120,7 @@ main{
     padding: 0.3em;
     font-size: 1em;
     opacity: 80%;
-    width: 150px;
+    width: 300px;
     transition: 0.3s;
 }
 .traducir:hover{
@@ -138,8 +141,9 @@ main{
     padding: 0.3em;
     font-size: 1em;
     opacity: 80%;
-    width: 150px;
+    width: 300px;
     transition: 0.3s;
+    margin-top: 10px;
    
 }
 .copiar:hover{
@@ -158,38 +162,86 @@ main{
     position: relative;
     margin: 2em;
 }
+.box{
+    margin-top: 10%;
+    margin-left:20%;
+    margin-bottom: 10px;
+    position: absolute;
+    width: 752px;
+    height: 70px;
+    border-radius: 20px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;    
+}
+
+.box::before{
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-image: linear-gradient(transparent,#76186855,   #0f08caba);
+    animation: rotar 1.5s linear infinite;
+    
+}
+.box::after{
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background-image: linear-gradient( transparent, #ae00ffc0);
+    animation: rotar 1.5s linear infinite;
+    animation-delay: -0.5s;
+
+}
+.box span{
+    inset: 5px;
+    border-radius: 16px;
+    position: absolute;
+    z-index: 2;
+    
+
+}
+@keyframes rotar {
+    0%{
+        transform: rotate(0deg);
+       
+    }
+    
+    100%{
+        transform: rotate(1turn);
+        
+    }
+}
 .git img{
     width: 60px;
-    opacity: 80%;
-    margin-top: 10%;
-    margin-left: 2%;
+    margin-left: 20%;
     cursor: pointer;
     display: inline-block;
     box-sizing: content-box;
+    position: relative;
 }
 .twit img{
     width: 60px;
-    opacity: 70%;
-    margin-top: 10%;
-    margin-left:20px;
+    margin-left:10%;
     cursor: pointer;
     display: inline-block;
+    position: relative;
 }
 .tik img{
     width: 60px;
-    opacity: 70%;
-    margin-top: 10%;
-    margin-left:20px;
+    margin-left:10%;
     cursor: pointer;
     display: inline-block;
+    position: relative;
+    opacity: 85%;
 }
 .insta img{
     width: 60px;
-    opacity: 70%;
-    margin-top: 10%;
-    margin-left:20px;
+    margin-left:10%;
     cursor: pointer;
     display: inline-block;
+    position: relative;
 }
 
 @media screen and (max-width:480px){
@@ -218,12 +270,15 @@ main{
         margin-left:2%;
         margin-bottom: 1em;
         border-radius: 10%;
-        padding: 1.3em;
+        padding: 1.1em;
+        height: 150px;
+        font-size: 2em;
+        align-items: center;
     }
     .salida{
         display: inline-block;
         width: 300px;
-        height: 450px;
+        height: 150px;
         width: 90%;
         margin-left:2%;
         margin-bottom: 1em;
@@ -251,15 +306,22 @@ main{
         margin-left: 25%;
         position: relative;
     }
+    
     .traducir{
-        width: 90%;
-        margin-left: 10%;
-        margin-top: 30px;
+        width: 100%;
+        height: 40px;
+        position: relative;
+        padding-top:0;
+        margin-top: 10%;
+        margin-left: 25px;
         font-size: 2em;
     }
+    .caja{
+        width: auto;
+    }
     .copiar{
-        width: 90%;
-        margin-left: 10%;
+        width: 100%;
+        margin-left: 25px;
         margin-top: 30px;
         font-size: 1.9em;
         opacity: 90%;
@@ -268,31 +330,40 @@ main{
         width: auto;
         margin-top: 10%;
     }
+    .box{
+        margin-left:2%;
+        width:350px;
+        height: 80px;
+        display: grid;
+        place-items: center;
+    }
+    .box::before{
+        width: 600px;
+        height: 600px;
+    }
+    .box::after{
+        width: 600px;
+        height: 600px;
+    }
+    .box span{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
     .git img{
-        margin-top: 10%;
-        margin-left: 35%;
-        width:20%;
-        opacity: 100%;
-        filter:none;
-        
+        margin: 10px;
     }
     .twit img{
-        margin-top: 20%;
-        width:20%;
-        opacity: 86%;
-        filter:none; 
+        
+        margin: 10px;
     }
     .tik img{
-        margin-left: 35%;
-        width:20%;
-        opacity: 86%;
-        filter:none; 
+    
+        margin: 12px;
+        
     }
     .insta img{
-        margin-left: 5%;
-        width:20%;
-        opacity: 86%;
-        filter:none; 
         
+        margin: 10px;      
     }
 }
