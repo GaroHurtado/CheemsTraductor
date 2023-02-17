@@ -27,7 +27,11 @@ de cheems.
 - Se argego el icono de la red social INSTAGRAM
 - Se realizo el responsive del icono para el uso del celular.
 
+**** v1.1.4 ****
+18/Feb/2023 12:00pm CST
+- Se agregaron efectos para el footer en los iconos de las redes sociales para que llamen un poco mas la atencion (0.0.3)
+- Se hicieron ajustes en los anchos de varios elentos para mejorar el responsive para celulares. (0.0.4)
+
 +++++++++++++++++++    Que vendra despues??    +++++++++++++++++++
-- Algunos efectos para el footer en los iconos de las redes sociales para que llamen un poco mas la atencion (0.0.3)
-- Algunos ajustes en el width del boton de traducir y copiar texto para un mejor responsive. (0.0.4)
 - Agregar nuevo idioma para la traduccion (funcion mayor) (0.2.0)
+- Platica con cheems, chatbot con chems (funcion version) (2.0.0)
